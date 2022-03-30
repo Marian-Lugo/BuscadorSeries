@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { render } from 'react-dom'
+import { Buscador } from './components/Buscador';
 import './styles/index.css'
+
 
 render(
   <StrictMode>
-    <p>BUSCADOR</p>
+    <Buscador>
+      
+    </Buscador>
   </StrictMode>,
-  document.getElementById('root')
-)
+  document.getElementById("root")
+);
